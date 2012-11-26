@@ -16,3 +16,4 @@ handle["proccess"]    = requestHandlers.proccess_H;
 
 
 server.start_UI_HTTP(8284, router.route, handle);
+server.start_HTTP(8283, router.route, handle);
